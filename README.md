@@ -14,7 +14,9 @@ Caos não possua o dotnet client, baixe e instale no link abaixo:
   
 A classe DataGenerator no projeto WebApi.Utils é responsável por gerar os primeiros dados de testes.
 Caso necessite adicionar mais arquivos,ou até mesmo atualizar ou deletar, pode-se utilizar a API para esse controle.
+
   https://localhost:5001/swagger/index.html
+  
   Nesse link também está a documentação.
   
 Um serviço em background fica a parte de fazer toda movimentação dos arquivos e atualizar seus status e as respectivas Datas:
