@@ -1,0 +1,474 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\FileManager.Tests.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj",
+        "projectName": "FileManager.Core",
+        "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj",
+        "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Meta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj",
+        "projectName": "FileManager.DataContracts",
+        "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj",
+        "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Meta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj",
+        "projectName": "FileManager.Infrastructure",
+        "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Meta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj",
+        "projectName": "FileManager.Repository",
+        "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj",
+        "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Meta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj",
+        "projectName": "FileManager.WebApi",
+        "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Meta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
+              },
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj"
+              },
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
+              },
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Hangfire.MemoryStorage": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\FileManager.Tests.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\FileManager.Tests.UnitTests.csproj",
+        "projectName": "FileManager.Tests.UnitTests",
+        "projectPath": "C:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\FileManager.Tests.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Meta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
+              },
+              "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
+              },
+              "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj": {
+                "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoBuilderCore": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.DotNet.InternalAbstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NBuilder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "System.ComponentModel.TypeConverter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

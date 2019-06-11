@@ -2785,7 +2785,6 @@
           "Hangfire.MemoryStorage": "1.6.0",
           "Microsoft.EntityFrameworkCore": "2.1.11",
           "Microsoft.EntityFrameworkCore.InMemory": "2.1.11",
-          "Microsoft.NETCore.App": "2.1.0",
           "Swashbuckle.AspNetCore": "4.0.1"
         },
         "compile": {
@@ -8514,11 +8513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\FileManager.Tests.UnitTests.csproj",
+      "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\FileManager.Tests.UnitTests.csproj",
       "projectName": "FileManager.Tests.UnitTests",
-      "projectPath": "D:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\FileManager.Tests.UnitTests.csproj",
+      "projectPath": "C:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\FileManager.Tests.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\obj\\",
+      "outputPath": "C:\\Projects\\FileManager\\FileManager\\test\\FileManager.Tests.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -8539,14 +8538,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
             },
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
             },
-            "D:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj"
             }
           }
         }
@@ -8581,6 +8580,7 @@
             "version": "[15.9.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

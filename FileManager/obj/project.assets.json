@@ -12337,11 +12337,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj",
+      "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj",
       "projectName": "FileManager.WebApi",
-      "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj",
+      "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager\\FileManager.WebApi.csproj",
       "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\FileManager\\FileManager\\FileManager\\obj\\",
+      "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12362,17 +12362,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
             },
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj"
             },
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
             },
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj"
             }
           }
         }
@@ -12430,6 +12430,7 @@
             "version": "[2.1.11, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

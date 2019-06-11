@@ -30,3 +30,7 @@ E:\Projects\FileManager\FileManager\FileManager.DataContracts\obj\Debug\netcorea
 E:\Projects\FileManager\FileManager\FileManager.DataContracts\obj\Debug\netcoreapp2.1\FileManager.DataContracts.csproj.CopyComplete
 E:\Projects\FileManager\FileManager\FileManager.DataContracts\obj\Debug\netcoreapp2.1\FileManager.DataContracts.dll
 E:\Projects\FileManager\FileManager\FileManager.DataContracts\obj\Debug\netcoreapp2.1\FileManager.DataContracts.pdb
+C:\Projects\FileManager\FileManager\FileManager.DataContracts\bin\Debug\netcoreapp2.1\FileManager.Infrastructure.dll
+C:\Projects\FileManager\FileManager\FileManager.DataContracts\bin\Debug\netcoreapp2.1\FileManager.Infrastructure.pdb
+C:\Projects\FileManager\FileManager\FileManager.DataContracts\obj\Debug\netcoreapp2.1\FileManager.DataContracts.csprojAssemblyReference.cache
+C:\Projects\FileManager\FileManager\FileManager.DataContracts\obj\Debug\netcoreapp2.1\FileManager.DataContracts.csproj.CopyComplete

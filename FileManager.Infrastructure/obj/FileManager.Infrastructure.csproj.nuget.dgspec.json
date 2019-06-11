@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {}
+    "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
+    "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj",
         "projectName": "FileManager.Infrastructure",
-        "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj",
+        "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\obj\\",
+        "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

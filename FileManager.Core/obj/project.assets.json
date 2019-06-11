@@ -1626,11 +1626,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj",
+      "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj",
       "projectName": "FileManager.Core",
-      "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj",
+      "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj",
       "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\obj\\",
+      "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1651,8 +1651,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj"
             }
           }
         }

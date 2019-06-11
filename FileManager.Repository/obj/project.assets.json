@@ -3250,11 +3250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj",
+      "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj",
       "projectName": "FileManager.Repository",
-      "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj",
+      "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\FileManager.Repository.csproj",
       "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\obj\\",
+      "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3275,8 +3275,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Core\\FileManager.Core.csproj"
             }
           }
         }

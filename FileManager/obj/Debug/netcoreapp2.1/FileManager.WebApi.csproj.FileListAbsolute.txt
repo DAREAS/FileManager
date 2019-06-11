@@ -68,3 +68,5 @@ E:\Projects\FileManager\FileManager\FileManager\obj\Debug\netcoreapp2.1\FileMana
 E:\Projects\FileManager\FileManager\FileManager\obj\Debug\netcoreapp2.1\FileManager.WebApi.csproj.CopyComplete
 E:\Projects\FileManager\FileManager\FileManager\obj\Debug\netcoreapp2.1\FileManager.WebApi.dll
 E:\Projects\FileManager\FileManager\FileManager\obj\Debug\netcoreapp2.1\FileManager.WebApi.pdb
+C:\Projects\FileManager\FileManager\FileManager\bin\Debug\netcoreapp2.1\FileManager.Infrastructure.dll
+C:\Projects\FileManager\FileManager\FileManager\bin\Debug\netcoreapp2.1\FileManager.Infrastructure.pdb

@@ -753,11 +753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj",
+      "projectUniqueName": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj",
       "projectName": "FileManager.DataContracts",
-      "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj",
+      "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\FileManager.DataContracts.csproj",
       "packagesPath": "C:\\Users\\Meta\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\obj\\",
+      "outputPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.DataContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -778,8 +778,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
+            "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\FileManager\\FileManager\\FileManager.Infrastructure\\FileManager.Infrastructure.csproj"
             }
           }
         }

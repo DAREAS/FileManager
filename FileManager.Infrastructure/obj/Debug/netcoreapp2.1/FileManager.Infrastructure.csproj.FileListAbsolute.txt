@@ -24,3 +24,4 @@ E:\Projects\FileManager\FileManager\FileManager.Infrastructure\obj\Debug\netcore
 E:\Projects\FileManager\FileManager\FileManager.Infrastructure\obj\Debug\netcoreapp2.1\FileManager.Infrastructure.AssemblyInfo.cs
 E:\Projects\FileManager\FileManager\FileManager.Infrastructure\obj\Debug\netcoreapp2.1\FileManager.Infrastructure.dll
 E:\Projects\FileManager\FileManager\FileManager.Infrastructure\obj\Debug\netcoreapp2.1\FileManager.Infrastructure.pdb
+C:\Projects\FileManager\FileManager\FileManager.Infrastructure\obj\Debug\netcoreapp2.1\FileManager.Infrastructure.csprojAssemblyReference.cache

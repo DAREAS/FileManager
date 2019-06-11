@@ -38,3 +38,5 @@ E:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.1\Fil
 E:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.1\FileManager.Core.csproj.CopyComplete
 E:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.1\FileManager.Core.dll
 E:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.1\FileManager.Core.pdb
+C:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.1\FileManager.Infrastructure.dll
+C:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.1\FileManager.Infrastructure.pdb
