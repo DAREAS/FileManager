@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileManager.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:FileManager.WebApi.Container.HangfireActivator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FileManager.WebApi.Container.HangfireActivator.#ctor(System.IServiceProvider)">
+            <summary>
+            
+            </summary>
+            <param name="serviceProvider"></param>
+        </member>
+        <member name="M:FileManager.WebApi.Container.HangfireActivator.ActivateJob(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FileManager.WebApi.Container.MainModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FileManager.WebApi.Container.MainModule.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FileManager.WebApi.Container.MainModule.Load(Autofac.ContainerBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="containerBuilder"></param>
+        </member>
+        <member name="T:FileManager.WebApi.Controllers.V1.FilesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FileManager.WebApi.Controllers.V1.FilesController.Get(System.Int32,System.Int32,FileManager.DataContracts.V1.File.IFileOperations)">
+            <summary>
+            Get paged all files informations in process to copy or move
+            </summary>
+            <param name="page"></param>
+            <param name="size"></param>
+            <param name="operations"></param>
+            <returns>Retrivies files with process status is Queued<see cref="T:FileManager.DataContracts.V1.File.FileDataContract"/></returns>
+        </member>
+        <member name="M:FileManager.WebApi.Controllers.V1.FilesController.Get(System.String,FileManager.DataContracts.V1.File.IFileOperations)">
+            <summary>
+            Get file information by Id
+            </summary>
+            <param name="idFile"></param>
+            <param name="operations"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FileManager.WebApi.Controllers.V1.FilesController.Post(FileManager.DataContracts.V1.File.FileDataContract,FileManager.DataContracts.V1.File.IFileOperations)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:FileManager.WebApi.Controllers.V1.FilesController.Put(System.String,FileManager.DataContracts.V1.File.FileDataContract,FileManager.DataContracts.V1.File.IFileOperations)">
+            <summary>
+            
+            </summary>
+            <param name="idFile"></param>
+            <param name="file"></param>
+            <param name="operations"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FileManager.WebApi.Controllers.V1.FilesController.Delete(System.String,FileManager.DataContracts.V1.File.IFileOperations)">
+            <summary>
+            
+            </summary>
+            <param name="idFile"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FileManager.WebApi.Jobs.FileManagerSchedule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FileManager.WebApi.Jobs.FileManagerSchedule.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FileManager.WebApi.Jobs.FileManagerSchedule.StartBckgroundJob">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FileManager.WebApi.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FileManager.WebApi.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:FileManager.WebApi.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FileManager.WebApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FileManager.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:FileManager.WebApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FileManager.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:FileManager.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

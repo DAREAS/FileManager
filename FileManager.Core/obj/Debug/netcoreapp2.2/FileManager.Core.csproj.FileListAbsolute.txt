@@ -1,0 +1,14 @@
+D:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.2\FileManager.Core.deps.json
+D:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.2\FileManager.Core.dll
+D:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.2\FileManager.Core.pdb
+D:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.2\FileManager.DataContracts.dll
+D:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.2\FileManager.Infrastructure.dll
+D:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.2\FileManager.DataContracts.pdb
+D:\Projects\FileManager\FileManager\FileManager.Core\bin\Debug\netcoreapp2.2\FileManager.Infrastructure.pdb
+D:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.2\FileManager.Core.csprojAssemblyReference.cache
+D:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.2\FileManager.Core.csproj.CoreCompileInputs.cache
+D:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.2\FileManager.Core.AssemblyInfoInputs.cache
+D:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.2\FileManager.Core.AssemblyInfo.cs
+D:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.2\FileManager.Core.csproj.CopyComplete
+D:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.2\FileManager.Core.dll
+D:\Projects\FileManager\FileManager\FileManager.Core\obj\Debug\netcoreapp2.2\FileManager.Core.pdb
