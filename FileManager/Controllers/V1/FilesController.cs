@@ -3,6 +3,7 @@ using System.Linq;
 using FileManager.DataContracts.V1.File;
 using Microsoft.AspNetCore.Mvc;
 using FileManager.Core.Operations.FileOperations;
+using Microsoft.Extensions.Logging;
 
 namespace FileManager.WebApi.Controllers.V1
 {
@@ -13,6 +14,12 @@ namespace FileManager.WebApi.Controllers.V1
     [Produces("application/json")]
     public class FilesController : AbstractController
     {
+        private readonly ILogger<FilesController> _logger;
+
+        public FilesController(ILogger<FilesController> logger)
+        {
+            _logger = logger;
+        }
         /// <summary>
         /// Get paged all files informations in process to copy or move
         /// If not set page or size, will be considered page = 1 and size = 10
@@ -24,6 +31,7 @@ namespace FileManager.WebApi.Controllers.V1
         [HttpGet("{page}/{size}")]
         public ActionResult Get(int page, int size, [FromServices] IFileOperations operations)
         {
+            _logger.LogInformation("Get Paged");
             try
             {
                 var result = operations.GetPaged(page, size);

@@ -1483,6 +1483,19 @@
           }
         }
       },
+      "Seq.Extensions.Logging/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.2",
+          "Microsoft.Extensions.Logging": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Seq.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Seq.Extensions.Logging.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -2785,6 +2798,8 @@
           "Hangfire.MemoryStorage": "1.6.0",
           "Microsoft.EntityFrameworkCore": "2.1.11",
           "Microsoft.EntityFrameworkCore.InMemory": "2.1.11",
+          "Microsoft.NETCore.App": "2.1.0",
+          "Seq.Extensions.Logging": "4.0.1",
           "Swashbuckle.AspNetCore": "4.0.1"
         },
         "compile": {
@@ -4744,6 +4759,27 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Seq.Extensions.Logging/4.0.1": {
+      "sha512": "lX/AIK7Kw7FgNljMvANaXvdiESjlzaSuF/9tItn0EEMfiZ/MtO91TnVmioYqYgjuoBDAyOxmjfrovUzrIuRnTA==",
+      "type": "package",
+      "path": "seq.extensions.logging/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Seq.Extensions.Logging.dll",
+        "lib/net45/Seq.Extensions.Logging.xml",
+        "lib/net46/Seq.Extensions.Logging.dll",
+        "lib/net46/Seq.Extensions.Logging.xml",
+        "lib/net461/Seq.Extensions.Logging.dll",
+        "lib/net461/Seq.Extensions.Logging.xml",
+        "lib/netstandard1.3/Seq.Extensions.Logging.dll",
+        "lib/netstandard1.3/Seq.Extensions.Logging.xml",
+        "lib/netstandard2.0/Seq.Extensions.Logging.dll",
+        "lib/netstandard2.0/Seq.Extensions.Logging.xml",
+        "seq.extensions.logging.4.0.1.nupkg.sha512",
+        "seq.extensions.logging.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/4.0.1": {
@@ -8580,7 +8616,6 @@
             "version": "[15.9.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

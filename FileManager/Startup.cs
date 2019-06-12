@@ -56,6 +56,8 @@ namespace FileManager.WebApi
 
             ConfigureHangfire(services);
 
+            services.AddLogging(logging => logging.AddSeq());
+
             services.AddSwaggerGen(sw =>
             {
                 sw.SwaggerDoc("v1", new Info
@@ -89,11 +91,12 @@ namespace FileManager.WebApi
         /// <param name="app"></param>
         /// <param name="env"></param>
         /// <param name="fileManagerSchedule"></param>
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, FileManagerSchedule fileManagerSchedule)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, FileManagerSchedule fileManagerSchedule)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                loggerFactory.AddSeq(Configuration.GetSection("seq"));
             }
             else
             {

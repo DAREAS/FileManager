@@ -167,7 +167,7 @@
             </summary>
             <param name="services"></param>
         </member>
-        <member name="M:FileManager.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,FileManager.WebApi.Jobs.FileManagerSchedule)">
+        <member name="M:FileManager.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory,FileManager.WebApi.Jobs.FileManagerSchedule)">
             <summary>
             This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
             </summary>
